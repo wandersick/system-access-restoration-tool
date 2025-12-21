@@ -1,12 +1,12 @@
 @echo off 
 
 :: ************************
-:: Script:  A sub script of Sneaky Win Intruder, remove temp user profile at next logon
+:: Script:  A sub script of SART, remove temp user profile at next logon
 ::          This file won't be used, but a real-time genereated one in %temp% instead
-:: Refer to Swi.bat and Readme.txt
+:: Refer to SART.bat and Readme.txt
 :: ************************
 
-:: #  This is the last part of cleanup script for SWI
+:: #  This is the last part of cleanup script for SART
 
 :: #  remove temp user profile
 cd /d "%userprofile%" >nul 2>&1
